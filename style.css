@@ -3,8 +3,12 @@ body {
   touch-action: manipulation;
 }
 
-/* Stadium Pitch Styling */
 .pitch-bg {
   background: linear-gradient(180deg, #1e3a1e 0%, #112411 100%);
   border: 2px solid #2e5a2e;
+}
+
+/* Tab Switch Animations */
+.tab-content {
+  transition: opacity 0.2s ease-in-out;
 }
