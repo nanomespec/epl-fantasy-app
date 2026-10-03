@@ -17,7 +17,7 @@ async function fetchPlayers() {
       mySquad = playerMarket.slice(0, 15).map((p, idx) => ({
         ...p,
         isStarter: idx < 11,
-        isCaptain: idx === 5
+        isCaptain: idx === 14 // Default Captain: A. Okutu
       }));
       bankBalance = 100.0 - mySquad.reduce((sum, p) => sum + p.price, 0);
     }
@@ -30,3 +30,4 @@ async function fetchPlayers() {
 
 // Boot application
 fetchPlayers();
+
