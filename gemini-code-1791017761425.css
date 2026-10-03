@@ -1,0 +1,10 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  touch-action: manipulation;
+}
+
+/* Stadium Pitch Styling */
+.pitch-bg {
+  background: linear-gradient(180deg, #1e3a1e 0%, #112411 100%);
+  border: 2px solid #2e5a2e;
+}
